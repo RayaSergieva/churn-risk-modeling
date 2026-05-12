@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data files
+data/raw/*.csv
+data/processed/*.csv
+data/raw/*.zip
+data/processed/*.zip
+
+# Keep the folder structure (the .gitkeep files)
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Local credentials (paranoid extra layer)
+.kaggle/
+kaggle.json
